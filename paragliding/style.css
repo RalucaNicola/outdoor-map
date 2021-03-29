@@ -13,11 +13,11 @@ html, body {
   width: 100%;
 }
 
-header {
-  position: absolute;
-  top: 0;
-  left: 2em;
-  right: 0;
-  font-size: 2em;
+#sideMenu, #elevationProfileContainer {
+  min-width: 400px;
+}
+
+.aligned {
+  padding: 12px 15px;
 }
 
