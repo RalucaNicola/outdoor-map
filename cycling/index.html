@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bicycle visualization</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.19/esri/css/main.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- import the webpage's javascript file -->
+    <script
+      defer
+      src="https://unpkg.com/es-module-shims@0.9.0/dist/es-module-shims.js"
+    ></script>
+    <script type="importmap-shim">
+      {
+        "imports": {
+          "esri/": "https://js.arcgis.com/4.19/@arcgis/core/"
+        }
+      }
+    </script>
+    <script src="./script.js" type="module-shim" defer></script>
+  </head>
+  <body>
+    <div id="viewDiv"></div>
+  </body>
+</html>
