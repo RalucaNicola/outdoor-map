@@ -123,7 +123,7 @@ view.ui.add(elevationProfile, "top-right");
     }, {
       name: "heartRate",
       alias: "heartRate",
-      type: "string"
+      type: "double"
     }],
     elevationInfo: {
       mode: "relative-to-ground",
