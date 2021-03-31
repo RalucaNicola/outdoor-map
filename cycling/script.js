@@ -59,7 +59,7 @@ view.ui.add(elevationProfile, "top-right");
   const response = await fetch("./cycling.gpx");
   const gpxcontent = await response.text();
   const geojson = gpx(new DOMParser().parseFromString(gpxcontent, "text/xml"));
-  const heartRates = geojson.features[0].properties.heartRates;
+  const heartRates = geojson.features[0].properties.coordinateProperties.heartRates;
   const coordinates = geojson.features[0].geometry.coordinates;
 
   // add the track as an input for the ElevationProfile widget
