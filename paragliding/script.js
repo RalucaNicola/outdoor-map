@@ -46,7 +46,7 @@ const epw = new ElevationProfile({
       color: [159, 207, 130],
       visible: false
     }),
-    new ElevationProfileLineInput({ color: [245, 203, 66] }),
+    new ElevationProfileLineInput({ color: [245, 203, 66], title: "Paragliding track" }),
   ],
   visibleElements: {
     selectButton: false,

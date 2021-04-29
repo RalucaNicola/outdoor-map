@@ -43,7 +43,7 @@ const view = new SceneView({
 const elevationProfile = new ElevationProfile({
   view,
   profiles: [
-    new ElevationProfileLineInput({ color: [245, 203, 66] }),
+    new ElevationProfileLineInput({ color: [245, 203, 66], title: "Bicycle track" }),
   ],
   visibleElements: {
     selectButton: false,
